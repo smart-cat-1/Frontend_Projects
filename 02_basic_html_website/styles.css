@@ -22,7 +22,6 @@ nav ul {
 main {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 2rem;
     box-sizing: border-box;
 }
