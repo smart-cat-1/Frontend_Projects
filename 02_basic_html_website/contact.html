@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="charset" content="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact | Hongyu Jin's Basic HTML Website</title>
+        
+        <meta name="description" content="Contact form Hongyu's basic html website practice"/>
+        <meta name="keywords" content="Frontend Project, HTML"/>
+        <meta name="author" content="Hongyu Jin"/>
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img width="64" src="../../assets/images/logo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="contact">
+                <h1>Contect Me</h1>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input id="name" name="name" rows="5" required>
+
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" rows="5" required>
+
+                    <label for="message">Message:</label>
+                    <input id="message" name="message" rows="5" required>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; all rights reserved 2026</p>
+        </footer>
+  </body>
+</html>
