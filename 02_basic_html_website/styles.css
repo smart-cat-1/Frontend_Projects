@@ -18,12 +18,3 @@ nav ul {
 .logo img {
   border-radius: 8px;
 }
-
-main {
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
-    padding: 2rem;
-    box-sizing: border-box;
-}
