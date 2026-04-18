@@ -8,7 +8,8 @@ if(sunIcon && moonIcon) {
   if (savedTheme === 'dark') {
     sunIcon.style.display = 'block';
     moonIcon.style.display = 'none';
-  } else {
+  } 
+  else {
     sunIcon.style.display = 'none';
     moonIcon.style.display = 'block';
   }
@@ -24,7 +25,8 @@ function toggleTheme() {
   if (newTheme === 'dark') {
     sunIcon.style.display = 'block';
     moonIcon.style.display = 'none';
-  } else {
+  } 
+  else {
     sunIcon.style.display = 'none';
     moonIcon.style.display = 'block';
   }
