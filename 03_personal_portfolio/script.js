@@ -19,7 +19,7 @@ function toggleTheme() {
   const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
    
   document.body.setAttribute('data-theme', newTheme);
-  localStorage.setItem('theme', 'newTheme')
+  localStorage.setItem('theme', newTheme)
 
   if (newTheme === 'dark') {
     sunIcon.style.display = 'block';
